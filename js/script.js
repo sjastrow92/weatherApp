@@ -115,7 +115,7 @@ function getWeatherToday() {
 };
 
 
-ar fiveForecastEl = $('.fiveForecast');
+var fiveForecastEl = $('.fiveForecast');
 
 function getFiveDayForecast() {
 	var getUrlFiveDay = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=imperial&appid=${key}`;
